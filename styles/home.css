@@ -26,7 +26,7 @@ header {
 }
 
 #logo {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 nav > a {
@@ -105,13 +105,14 @@ nav > a:before {
 }
 
 .info_redes {
-    margin: 20px;
+  margin: 20px;
 }
 
 .map {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 footer {
-  margin-top: 2em;
+  padding: 10px 0 20px 0;
+  text-align: center;
 }

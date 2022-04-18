@@ -1,0 +1,202 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.header {
+  margin: auto;
+  padding: 20px;
+  background-color: #f39db0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header_links {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.header_links a {
+  text-decoration: none;
+  color: black;
+  transition-property: 0.4s;
+
+  transition: 0.4s;
+}
+
+.header_links a:hover {
+  color: #e83d62;
+  margin: 4px;
+}
+
+.header_links > ul {
+  margin-right: 120px;
+}
+
+.header_links > ul > li {
+  font-size: 22px;
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.principal_imagem {
+  background-image: url("img/principal-imagem.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+}
+
+.principal_texto {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: 35px;
+  color: white;
+}
+
+.principal_texto > h1 {
+  font-size: 60px;
+}
+
+.principal_cards {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.principal_card-item {
+  box-shadow: 2px 4px 4px 2px rgb(106, 95, 95);
+  margin: 40px 0 40px 0;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.principal_card-item img {
+  height: 400px;
+  width: 540px;
+}
+
+.principal_card-item-sobre {
+  padding: 40px;
+}
+
+.principal_card-item-sobre h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.principal_card-item-sobre p {
+  font-size: 1.3rem;
+  color: rgb(162, 161, 161);
+}
+
+.principal_card-item-sobre_botao {
+  margin-top: 40px;
+  background: #99d5fa;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 17px;
+
+  transition: 0.4s;
+}
+.principal_card-item-sobre_botao:hover {
+
+  padding: 14px 28px;
+
+
+  background-color: #54b9f8;
+  cursor: pointer;
+}
+
+.principal_cards-sobre {
+  display: flex;
+}
+
+.cards-cursos {
+  margin-right: 20px;
+  height: 300px;
+  padding: 28px 28px 20px 28px;
+  border: 1px solid #938e8e;
+  border-radius: 6px;
+
+  box-shadow: 2px 4px 4px 2px rgb(106, 95, 95);
+
+  text-align: center;
+}
+
+.cards-cursos > h1 {
+  margin: 20px 0 30px 0;
+  font-size: 30px;
+}
+
+.cards-cursos p {
+  color: rgb(162, 161, 161);
+
+  margin: 0 0 40px 0;
+}
+
+.cards-cursos button {
+  background-color: #99d5fa;
+  opacity: 0.8;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+
+  transition: 0.4s;
+}
+
+.cards-cursos button:hover {
+  padding: 14px;
+  background-color: #54b9f8;
+  cursor: pointer;
+}
+
+.rodape {
+  background-color: #ffc4d0;
+  margin-top: 60px;
+  padding: 80px;
+
+  display: flex;
+  align-items: center;
+}
+
+#maps {
+  width: 50%;
+  height: 250px;
+  margin-right: 30px;
+}
+
+.contatos {
+  width: 50%;
+  text-align: center;
+}
+.contatos h1 {
+  font-size: 35px;
+  margin-bottom: 13px;
+}
+.contatos p {
+  margin-bottom: 30px;
+}
+
+.redes_sociais {
+  width: 100%;
+  display: inline-block;
+}
+
+.redes_sociais img {
+  width: 50px;
+  height: 50px;
+
+  margin-left: 20px;
+}
+
+.redes_sociais li {
+  display: inline-block;
+}
