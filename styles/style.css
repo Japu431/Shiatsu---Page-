@@ -44,7 +44,7 @@ body {
 }
 
 .principal_imagem {
-  background-image: url("img/principal-imagem.jpg");
+  background-image: url("../img/principal-imagem.jpg");
   background-size: cover;
   width: 100%;
   height: 420px;
